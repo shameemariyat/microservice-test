@@ -1,7 +1,7 @@
-package service;
+package com.test.microservice.web.service;
 
-import com.zafin.accounts.model.Account;
-import com.zafin.accounts.model.AccountDto;
+import com.test.microservice.account.model.Account;
+import com.test.microservice.account.model.AccountDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

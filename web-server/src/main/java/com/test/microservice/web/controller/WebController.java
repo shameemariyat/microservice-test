@@ -1,10 +1,10 @@
-package controller;
+package com.test.microservice.web.controller;
 
-import com.zafin.accounts.model.Account;
-import com.zafin.accounts.model.AccountDto;
+import com.test.microservice.account.model.Account;
+import com.test.microservice.account.model.AccountDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import service.WebService;
+import com.test.microservice.web.service.WebService;
 
 @RestController
 @RequestMapping("/entry")
@@ -19,6 +19,7 @@ public class WebController {
 
     @PostMapping
     public  void putAccount(@RequestBody AccountDto dto){
+        System.out.println("helo");
         webService.putAccount(dto);
     }
 }

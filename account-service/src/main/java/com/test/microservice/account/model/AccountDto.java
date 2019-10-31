@@ -1,4 +1,4 @@
-package com.zafin.accounts.model;
+package com.test.microservice.account.model;
 
 public class AccountDto {
 

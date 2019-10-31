@@ -1,10 +1,10 @@
-package controller;
+package com.test.microservice.account.controller;
 
-import com.zafin.accounts.model.Account;
-import com.zafin.accounts.model.AccountDto;
+import com.test.microservice.account.model.Account;
+import com.test.microservice.account.model.AccountDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import service.AccountService;
+import com.test.microservice.account.service.AccountService;
 
 @RestController
 @RequestMapping("/account")

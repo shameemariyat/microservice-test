@@ -1,4 +1,4 @@
-package com.zafin.accounts.model;
+package com.test.microservice.account.model;
 
 import javax.persistence.*;
 
@@ -23,7 +23,7 @@ public class Account {
     }
 
     @Id
-    @Column(name = "account_number")
+    @Column(name = "id")
     @GeneratedValue(generator = "question_generator")
     @SequenceGenerator(
             name = "question_generator",

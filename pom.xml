@@ -24,7 +24,7 @@
         </dependency>
         <!--<dependency>
             <groupId>microservice-demo</groupId>
-            <artifactId>account-service</artifactId>
+            <artifactId>account-com.test.microservice.test.service</artifactId>
         </dependency>-->
         <dependency>
             <!-- Setup Spring MVC & REST, use Embedded Tomcat -->
@@ -64,7 +64,7 @@
         </dependency>
 
         <dependency>
-            <!-- Eureka service registration - CHANGED -->
+            <!-- Eureka com.test.microservice.test.service registration - CHANGED -->
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>

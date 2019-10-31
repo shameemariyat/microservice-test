@@ -1,6 +1,6 @@
-package dao;
+package com.test.microservice.account.dao;
 
-import com.zafin.accounts.model.Account;
+import com.test.microservice.account.model.Account;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

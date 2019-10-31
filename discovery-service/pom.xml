@@ -11,7 +11,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     <groupId>microservice-demo</groupId>
-    <artifactId>discovery-service</artifactId>
+    <artifactId>discovery-com.test.microservice.test.service</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 

@@ -1,7 +1,7 @@
-package service;
+package com.test.microservice.account.service;
 
-import dao.AccountRepository;
-import com.zafin.accounts.model.Account;
+import com.test.microservice.account.dao.AccountRepository;
+import com.test.microservice.account.model.Account;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
